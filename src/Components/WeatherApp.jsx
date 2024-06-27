@@ -24,7 +24,6 @@ const WeatherApp = () => {
     const handleLocationChange = useDebounce ((value) => {
       // !Here the callback function is itself a function and takes a parameter value and that parameter
       // !value is e.target.value 
-
       // *here now the handleLocationChange function has the refrence of usedebounce function
       // *that usedebounce function takes two arguments one is the callback function and another one 
       // *is the delay , here that callback function accepts a parameter and the parameter value is
